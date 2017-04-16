@@ -8,7 +8,7 @@
 
     function WindowResize() {
         deviceWidth = document.documentElement.clientWidth;
-        if (deviceWidth > 800) deviceWidth = 800;
+        if (deviceWidth > 750) deviceWidth = 750;
         document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
     }
 })(window);
@@ -18,8 +18,8 @@ var deleteLog = false;
 $(document).ready(function () {
     $('#pagepiling').pagepiling({
         menu: '#menu',
-        anchors: ['intro', 'aa', 'bb'],
-        sectionsColor: ['#292929', '#292929', '#292929'],
+        anchors: ['intro', 'aa', 'bb','cc','dd'],
+        sectionsColor: ['#292929', '#292929', '#292929', '#292929'],
         onLeave: function (index, nextIndex, direction) {
             if (deleteLog) {
                 $('#callbacksDiv').html('');

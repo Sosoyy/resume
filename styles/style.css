@@ -29,7 +29,8 @@ img{width:100%; border:none;margin-top:0px;display: block;}
 
 .pos-relative{position: relative;}
 .pos-absolute{position: absolute;}
-
+.text-right{text-align: right !important;}
+.text-left{text-align: left !important;}
 .icon {
     width: 1em; height: 1em;
     vertical-align: -0.15em;
@@ -57,12 +58,16 @@ body{background: #292929}
 .timeline {margin-top: .1rem;width: auto;}
 .timeline .col{margin-top: .1rem;/* height: 8rem; */}
 .timeline .col .timeline-title p{text-align: center;}
+.timeline-title{padding: 0 .2rem;box-sizing: border-box;}
 .timeline-title .line{height: 1px;background: #e1b406;margin: 0.1rem auto;position: relative;}
 .timeline-title .line em{    height: .15rem;position: absolute;width: 2px;background: #e1b406;top: 0;left: 50%;}
 .timeline-title .time{font-size: .26rem;color:#a49662;}
 .timeline-title .name{font-size: .3rem;color:#d9ca91;}
 .timeline-con{padding: .1rem;box-sizing: border-box;}
 .timeline-con .name{font-size: .28rem;color:#f3eedd;text-align: center;}
-.timeline-con .subname{font-size: .25rem;color:#b3b0a7;text-align: right;}
+.timeline-con .subname{font-size: .26rem;color:#b3b0a7;text-align: right;margin-top: .1rem;}
 .detail{font-size: 0.26rem;color: #cdcdcd;margin-top: .2rem;}
 .tips{color: #e2c96a;font-size: .32rem;margin-top: .2rem;}
+
+i{color: #d2bb64}
+.project .icon{margin-right: .2rem;}

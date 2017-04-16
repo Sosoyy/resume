@@ -38,9 +38,10 @@ html, body {
     margin-top: -32px;
     top: 50%;
     opacity: 1;
+    right: 1px;
 }
 #pp-nav.right {
-    right: 17px;
+    right: .01rem;
 }
 #pp-nav.left {
     left: 17px;

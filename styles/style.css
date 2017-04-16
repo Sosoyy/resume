@@ -42,9 +42,9 @@ img{width:100%; border:none;margin-top:0px;display: block;}
 body{background: #292929}
 .cover img{width: 4rem;margin: 0 auto;}
 
-.intro_brif h1,.exp_brif h1{font-size: .6rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
-.intro_brif .subtitle{color: #e0d7b5;font-size: .4rem;text-align: center;}
-.intro_brif .work{font-size: .5rem;text-align: center;color: #e2c96a;font-weight: 800;}
+.intro_brif h1,.exp_brif h1{display: block;width: 100%;font-size: .6rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
+.intro_brif .subtitle{color: #e0d7b5;display: block;font-size: .4rem;text-align: center;width: 100%;}
+.intro_brif .work{font-size: .5rem;text-align: center;color: #e2c96a;display: block;font-weight: 800;width: 100%;}
 .contact{width: 4.5rem;margin: 0.1rem auto auto;font-size: .36rem;}
 .contact .row{margin-top: .1rem;}
 .contact .icon{margin-right: 0.06rem;}

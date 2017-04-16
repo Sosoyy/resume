@@ -1,1 +1,30 @@
-*{margin:0;padding:0;}
+/*******************触屏版重置样式*****************/
+
+/*reset*/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input,b,i,cite{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+ul,ol,li{list-style-type:none}
+li{vertical-align:0}
+h1,h2,h3,h4,h5,h6{ font-weight:normal}
+a{outline-style:none;color:#666666;text-decoration:none}
+a:hover{color:#666666; text-decoration:none}
+body{ background-color:#ffffff;}
+body,input,select,textarea{ font-size:14px; font-family: "Microsoft Yahei";outline:none;-webkit-appearance:none;}
+object,embed,video{width:100%; border:none;margin-top:3px;}
+img{width:100%; border:none;margin-top:0px;display: block;}
+
+/* initial */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{ *zoom:1;}
+.clear{ clear:both;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+.block{display: block;}
+.inline{display: inline;}
+.inline-block{display: inline-block;}
+.none{display: none;}
+.flex-row{display: -webkit-box;display: -moz-box; display: -ms-flexbox;display: -webkit-box;
+display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.pos-relative{position: relative;}
+.pos-absolute{position: absolute;}

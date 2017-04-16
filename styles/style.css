@@ -1,4 +1,4 @@
-/*******************触屏版重置样式*****************/
+/*******************è§¦å±ç‰ˆé‡ç½®æ ·å¼*****************/
 
 /*reset*/
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
@@ -39,14 +39,14 @@ display: -webkit-flex;display: -ms-flexbox;display: flex;}
 @media (min-width:800px ) { html { font-size:100.00px;}}
 
 .icon {
-    /* 通过设置 font-size 来改变图标大小 */
+    /* é€šè¿‡è®¾ç½® font-size æ¥æ”¹å˜å›¾æ ‡å¤§å° */
     width: 1em; height: 1em;
-    /* 图标和文字相邻时，垂直对齐 */
+    /* å›¾æ ‡å’Œæ–‡å­—ç›¸é‚»æ—¶ï¼Œåž‚ç›´å¯¹é½ */
     vertical-align: -0.15em;
-    /* 通过设置 color 来改变 SVG 的颜色/fill */
+    /* é€šè¿‡è®¾ç½® color æ¥æ”¹å˜ SVG çš„é¢œè‰²/fill */
     fill: currentColor;
-    /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
-        normalize.css 中也包含这行 */
+    /* path å’Œ stroke æº¢å‡º viewBox éƒ¨åˆ†åœ¨ IE ä¸‹ä¼šæ˜¾ç¤º
+        normalize.css ä¸­ä¹ŸåŒ…å«è¿™è¡Œ */
     overflow: hidden;
     }
 
@@ -57,12 +57,13 @@ body{background: #292929}
 
 .cover img{width: 4rem;margin: 0 auto;}
 
-.intro_brif h1{font-size: 1.2rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
-.intro_brif .subtitle{color: #e0d7b5;font-size: .45rem;text-align: center;}
-.intro_brif .work{font-size: .8rem;text-align: center;color: #e2c96a;font-weight: 800;}
-.contact{width: 5.7rem;margin: 0.2rem auto auto;font-size: .5rem;}
-.contact .row{margin-top: .2rem;}
+.intro_brif h1{font-size: 1rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
+.intro_brif .subtitle{color: #e0d7b5;font-size: .42rem;text-align: center;}
+.intro_brif .work{font-size: .68rem;text-align: center;color: #e2c96a;font-weight: 800;}
+.contact{width: 4.8rem;margin: 0.1rem auto auto;font-size: .42rem;}
+.contact .row{margin-top: .1rem;}
 .contact .icon{margin-right: 0.06rem;}
 .contact span{color: #e5dbb7;}
 .contact .icon.tel{color:#22c3aa;}
 .contact .icon.email{color:#2297c3;}
+.avatar{width: 3rem;height: 3rem;background: #d2bb64;border-radius: 50%;margin: 0 auto;}

@@ -57,13 +57,13 @@ body{background: #292929}
 
 .cover img{width: 4rem;margin: 0 auto;}
 
-.intro_brif h1{font-size: 1rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
-.intro_brif .subtitle{color: #e0d7b5;font-size: .42rem;text-align: center;}
-.intro_brif .work{font-size: .68rem;text-align: center;color: #e2c96a;font-weight: 800;}
-.contact{width: 4.8rem;margin: 0.1rem auto auto;font-size: .42rem;}
+.intro_brif h1{font-size: 1.2rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
+.intro_brif .subtitle{color: #e0d7b5;font-size: .6rem;text-align: center;}
+.intro_brif .work{font-size: .76rem;text-align: center;color: #e2c96a;font-weight: 800;}
+.contact{width: 6.4rem;margin: 0.1rem auto auto;font-size: .56rem;}
 .contact .row{margin-top: .1rem;}
 .contact .icon{margin-right: 0.06rem;}
 .contact span{color: #e5dbb7;}
 .contact .icon.tel{color:#22c3aa;}
 .contact .icon.email{color:#2297c3;}
-.avatar{width: 3rem;height: 3rem;background: #d2bb64;border-radius: 50%;margin: 0 auto;}
+.avatar{width: 3.5rem;height: 3.5rem;background: #d2bb64;border-radius: 50%;margin: 0 auto;}

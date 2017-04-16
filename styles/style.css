@@ -66,8 +66,14 @@ body{background: #292929}
 .timeline-con{padding: .1rem;box-sizing: border-box;}
 .timeline-con .name{font-size: .3rem;color:#f3eedd;text-align: center;}
 .timeline-con .subname{font-size: .28rem;color:#b3b0a7;text-align: right;margin-top: .1rem;}
-.detail{font-size: 0.3rem;color: #cdcdcd;margin-top: .2rem;}
+.detail{font-size: 0.3rem;color: #cdcdcd;margin-top: .1rem;}
 .tips{color: #e2c96a;font-size: .32rem;margin-top: .2rem;}
 
 i{color: #d2bb64}
 .project .icon{margin-right: .2rem;}
+.skill{margin-top: .2rem;}
+.html,.css,.jQuery,.angular,.react,.nodejs,.backbone,.Echarts,.bootstrap{width: 1.4rem;height: 1.4rem;margin: 0 auto;}
+p.title{font-size: .3rem;color:#d2bb64;text-align: center;}
+.ad{margin-top: .2rem;}
+.ad p.title{text-align: left;padding-left: .2rem;box-sizing: border-box;}
+.ad div{font-size: .3rem;color:#cdcdcd;padding: .2rem;box-sizing: border-box;}

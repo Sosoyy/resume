@@ -18,13 +18,12 @@ var deleteLog = false;
 $(document).ready(function () {
     $('#pagepiling').pagepiling({
         menu: '#menu',
-        anchors: ['page1', 'page2', 'page3'],
-        sectionsColor: ['#292929', '#292929', '#292929', '#292929'],
+        anchors: ['intro', 'aa', 'bb'],
+        sectionsColor: ['#292929', '#292929', '#292929'],
         onLeave: function (index, nextIndex, direction) {
             if (deleteLog) {
                 $('#callbacksDiv').html('');
             }
-            $('#callbacksDiv').append('<p>onLeave - index:' + index + ' nextIndex:' + nextIndex + ' direction:' + direction + '</p>')
         },
         afterRender: function () {
             $('#callbacksDiv').append('<p>afterRender</p>');

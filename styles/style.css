@@ -52,12 +52,9 @@ display: -webkit-flex;display: -ms-flexbox;display: flex;}
 
 /*style*/
 body{background: #292929}
-.header .header-con{height:0.82rem;background: #6e5801; filter: Alpha(opacity=10); -moz-opacity:0.1; opacity:0.1;}
-.header .line{height: 1px;width: 100%;background: #e1b406}
-
 .cover img{width: 4rem;margin: 0 auto;}
 
-.intro_brif h1{font-size: 1.2rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
+.intro_brif h1,.exp_brif h1{font-size: 1.2rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
 .intro_brif .subtitle{color: #e0d7b5;font-size: .6rem;text-align: center;}
 .intro_brif .work{font-size: .76rem;text-align: center;color: #e2c96a;font-weight: 800;}
 .contact{width: 6.4rem;margin: 0.1rem auto auto;font-size: .56rem;}
@@ -67,3 +64,19 @@ body{background: #292929}
 .contact .icon.tel{color:#22c3aa;}
 .contact .icon.email{color:#2297c3;}
 .avatar{width: 3.5rem;height: 3.5rem;background: #d2bb64;border-radius: 50%;margin: 0 auto;}
+
+.exp_brif{height: 100%;width: 100%;padding: .2rem;box-sizing: border-box;}
+.exp_brif h1{text-align: left;padding-left: .2rem;box-sizing: border-box;}
+.timeline {margin-top: .3rem;width: auto;}
+.timeline .col{float:left;width: 5rem;margin-top: .2rem;height: 8rem;}
+.timeline .col:nth-child(3){width: 10rem;}
+.timeline .col .timeline-title p{text-align: center;line-height: .6rem;}
+.timeline-title .line{height: 1px;background: #e1b406;margin: 0.2rem auto;position: relative;}
+.timeline-title .line em{    height: .15rem;position: absolute;width: 2px;background: #e1b406;top: 0;left: 50%;}
+.timeline-title .time{font-size: .4rem;color:#a49662;}
+.timeline-title .name{font-size: .4rem;color:#d9ca91;}
+.timeline-con{padding: .2rem;box-sizing: border-box;}
+.timeline-con .name{font-size: .34rem;color:#f3eedd;text-align: center;}
+.timeline-con .subname{font-size: .3rem;color:#b3b0a7;text-align: right;}
+.detail{font-size: .3rem;color: #cdcdcd;margin-top: .2rem;}
+.tips{color: #e2c96a;font-size: .26rem;margin-top: .2rem;}

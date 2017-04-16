@@ -28,3 +28,41 @@ img{width:100%; border:none;margin-top:0px;display: block;}
 display: -webkit-flex;display: -ms-flexbox;display: flex;}
 .pos-relative{position: relative;}
 .pos-absolute{position: absolute;}
+
+@media (min-width:0px   ) { html { font-size: 32.00px;}}
+@media (min-width:320px ) { html { font-size:40.40px;}}
+@media (min-width:480px ) { html { font-size:61.73px;}}
+@media (min-width:540px ) { html { font-size:69.73px;}}
+@media (min-width:640px ) { html { font-size:83.06px;}}
+@media (min-width:720px ) { html { font-size:93.73px;}}
+@media (min-width:768px ) { html { font-size:100.00px;}}
+@media (min-width:800px ) { html { font-size:100.00px;}}
+
+.icon {
+    /* 通过设置 font-size 来改变图标大小 */
+    width: 1em; height: 1em;
+    /* 图标和文字相邻时，垂直对齐 */
+    vertical-align: -0.15em;
+    /* 通过设置 color 来改变 SVG 的颜色/fill */
+    fill: currentColor;
+    /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+        normalize.css 中也包含这行 */
+    overflow: hidden;
+    }
+
+/*style*/
+body{background: #292929}
+.header .header-con{height:0.82rem;background: #6e5801; filter: Alpha(opacity=10); -moz-opacity:0.1; opacity:0.1;}
+.header .line{height: 1px;width: 100%;background: #e1b406}
+
+.cover img{width: 2rem;margin: 0 auto;}
+
+.intro_brif h1{font-size: .8rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
+.intro_brif .subtitle{color: #e0d7b5; font-size: .3rem; text-align: center;}
+.intro_brif .work{font-size: .35rem; text-align: center; color: #e2c96a; font-weight: 800;}
+.contact{width: 3.5rem;margin: 0.2rem auto auto;}
+.contact .row{margin-top: .02rem;}
+.contact .icon{font-size: .3rem;margin-right: 0.06rem;}
+.contact span{font-size: .3rem;color: #e5dbb7;text-align: right;}
+.contact .icon.tel{color:#22c3aa;}
+.contact .icon.email{color:#2297c3;}

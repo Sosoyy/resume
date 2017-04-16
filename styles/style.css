@@ -55,14 +55,14 @@ body{background: #292929}
 .header .header-con{height:0.82rem;background: #6e5801; filter: Alpha(opacity=10); -moz-opacity:0.1; opacity:0.1;}
 .header .line{height: 1px;width: 100%;background: #e1b406}
 
-.cover img{width: 2rem;margin: 0 auto;}
+.cover img{width: 4rem;margin: 0 auto;}
 
-.intro_brif h1{font-size: .8rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
-.intro_brif .subtitle{color: #e0d7b5; font-size: .3rem; text-align: center;}
-.intro_brif .work{font-size: .35rem; text-align: center; color: #e2c96a; font-weight: 800;}
-.contact{width: 3.5rem;margin: 0.2rem auto auto;}
-.contact .row{margin-top: .02rem;}
-.contact .icon{font-size: .3rem;margin-right: 0.06rem;}
-.contact span{font-size: .3rem;color: #e5dbb7;text-align: right;}
+.intro_brif h1{font-size: 1.2rem;color: #e1b406;text-align: center;font-weight: bold;text-shadow: 1px 2px #a49662, 2px 4px #aee2d9;}
+.intro_brif .subtitle{color: #e0d7b5;font-size: .45rem;text-align: center;}
+.intro_brif .work{font-size: .8rem;text-align: center;color: #e2c96a;font-weight: 800;}
+.contact{width: 5.7rem;margin: 0.2rem auto auto;font-size: .5rem;}
+.contact .row{margin-top: .2rem;}
+.contact .icon{margin-right: 0.06rem;}
+.contact span{color: #e5dbb7;}
 .contact .icon.tel{color:#22c3aa;}
 .contact .icon.email{color:#2297c3;}

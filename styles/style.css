@@ -52,7 +52,7 @@ body{background: #292929}
 .contact .icon.tel{color:#22c3aa;}
 .contact .icon.email{color:#2297c3;}
 .avatar{width: 3.5rem;height: 3.5rem;background: #d2bb64;border-radius: 50%;margin: 0 auto;}
-
+.avatar img{border-radius: 50%;}
 .exp_brif{height: 100%;width: 100%;padding: .2rem 0;box-sizing: border-box;}
 .exp_brif h1{text-align: left;padding-left: .2rem;box-sizing: border-box;}
 .timeline {margin-top: .1rem;width: auto;}

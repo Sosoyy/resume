@@ -8,7 +8,7 @@
 
     function WindowResize() {
         deviceWidth = document.documentElement.clientWidth;
-        if (deviceWidth > 500) deviceWidth = 500;
+        if (deviceWidth > 800) deviceWidth = 800;
         document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
     }
 })(window);
